@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.thanh_toan_thanh_cong"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dat hang thanh cong"
+        android:textSize="35sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don hang cua ban dang duoc xu li"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vetrangchu"
+        android:layout_marginTop="30dp"
+        android:text="Về trang chủ"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+
+        />
+</LinearLayout>
